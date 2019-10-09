@@ -25,6 +25,7 @@
     - Setters
   - Class definitions, whether declaration or expressions, are not hoisted.
   - Classes always execute in strict mode.
+  - typeof on a class returns "function" since a class is a syntactic sugar for a constructor function.
 */
 
 (function demoClasses() {
